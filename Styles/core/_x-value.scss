@@ -1,0 +1,8 @@
+﻿@function x-value($value) {
+
+  @if (length($value) == 0) {
+    @include throw('invalid value \'#{$value}\'', error);
+  }
+
+  @return 0;
+}

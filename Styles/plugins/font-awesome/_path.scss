@@ -1,0 +1,12 @@
+/* FONT PATH
+ * -------------------------- */
+
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('#{$fa-font-path}/font-awesome/font-awesome.eot?v=#{$fa-version}');
+  src: url('#{$fa-font-path}/font-awesome/font-awesome.eot?#iefix&v=#{$fa-version}') format('embedded-opentype'),
+    url('#{$fa-font-path}/font-awesome/font-awesome.woff2?v=#{$fa-version}') format('woff2'),
+    url('#{$fa-font-path}/font-awesome/font-awesome.woff?v=#{$fa-version}') format('woff'),
+    url('#{$fa-font-path}/font-awesome/font-awesome.ttf?v=#{$fa-version}') format('truetype'),
+    url('#{$fa-font-path}/font-awesome/font-awesome.svg?v=#{$fa-version}#fontawesomeregular') format('svg');
+}

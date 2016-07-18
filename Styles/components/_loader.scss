@@ -1,0 +1,11 @@
+﻿.loader {
+  @include circle($loader-size);
+  @include spin($loader-time, infinite);
+  border: {
+    width: $loader-line-width;
+    style: $loader-line-style;
+    color: $loader-line-color;
+  }
+  border-top-color: $loader-color;
+  background-color: transparent;
+}

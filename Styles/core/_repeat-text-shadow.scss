@@ -1,0 +1,11 @@
+﻿@function repeat-text-shadow($spread: 0, $color: black, $interval: 2px, $iteration: 8) {
+  $shadows: ();
+  $i: 0;
+  @while ($i < $iteration) {
+    $i: ($i + 1);
+
+    $shadows: append($shadows, ($interval * $i) ($interval * $i) $spread $color, comma);
+  }
+
+  @return $shadows;
+}

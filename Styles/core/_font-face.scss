@@ -1,0 +1,47 @@
+﻿@mixin font-face($name, $file: null, $options: ()) {
+  $files: ();
+
+  @font-face {
+    @if (type-of($file) != string /*or type-of($font-file) == map*/ ) {
+      @include throw('invalid font(s) file(s)', error);
+    }
+
+    @if (map-has-key($options, format)) {
+      $formats: map-get($options, format);
+
+      @each $format in $formats {
+        @if ($format == eot) {
+          src: url('#{$file}.eot');
+          $files: append($files, url('#{$file}.eot?#iefix') format('embedded-opentype'), comma);
+        }
+
+        @if ($format == woff) {
+          $files: append($files, url('#{$file}.woff') format('woff'), comma);
+        }
+
+        @if ($format == ttf) {
+          $files: append($files, url('#{$file}.ttf') format('truetype'), comma);
+        }
+
+        @if ($format == svg) {
+          $id: '';
+
+          @if (map-has-key($options, id)) {
+            $id: '##{map-get($options, id)}';
+          }
+
+          $files: append($files, url('#{$file}.svg#{$id}') format('svg'), comma);
+        }
+      }
+    } @else {
+      src: url('#{$file}');
+      $files: null;
+    }
+
+    src: $files;
+    font-family: $name;
+    @if (map-has-key($options, style)) {
+      @include render(map-get($options, style));
+    }
+  }
+}

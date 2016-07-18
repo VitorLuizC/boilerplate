@@ -1,0 +1,349 @@
+/* Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
+   readers do not read off random characters that represent icons */
+
+@function unicode($value) {
+  @return unquote('\'') + $value + unquote('\'');
+}
+
+@each $fa-icon-label, $fa-icon-character in $fa-icons {
+  .#{$fa-css-prefix}-#{$fa-icon-label}::before {
+    content: unicode($fa-icon-character);
+  }
+}
+
+.#{$fa-css-prefix}-remove::before,
+.#{$fa-css-prefix}-close::before {
+  @extend .#{$fa-css-prefix}-times::before;
+}
+
+.#{$fa-css-prefix}-gear::before {
+  @extend .#{$fa-css-prefix}-cog::before;
+}
+
+.#{$fa-css-prefix}-rotate-right::before {
+  @extend .#{$fa-css-prefix}-repeat::before;
+}
+
+.#{$fa-css-prefix}-dedent::before {
+  @extend .#{$fa-css-prefix}-outdent::before;
+}
+
+.#{$fa-css-prefix}-photo::before,
+.#{$fa-css-prefix}-image::before {
+  @extend .#{$fa-css-prefix}-picture-o::before;
+}
+
+.#{$fa-css-prefix}-edit::before {
+  @extend .#{$fa-css-prefix}-pencil-square-o::before;
+}
+
+.#{$fa-css-prefix}-mail-forward::before {
+  @extend .#{$fa-css-prefix}-share::before;
+}
+
+.#{$fa-css-prefix}-warning::before {
+  @extend .#{$fa-css-prefix}-exclamation-triangle::before;
+}
+
+.#{$fa-css-prefix}-bar-chart-o::before {
+  @extend .#{$fa-css-prefix}-bar-chart::before;
+}
+
+.#{$fa-css-prefix}-gears::before {
+  @extend .#{$fa-css-prefix}-cogs::before;
+}
+
+.#{$fa-css-prefix}-facebook-f::before {
+  @extend .#{$fa-css-prefix}-facebook::before;
+}
+.#{$fa-css-prefix}-group::before {
+  @extend .#{$fa-css-prefix}-users::before;
+}
+
+.#{$fa-css-prefix}-chain::before {
+  @extend .#{$fa-css-prefix}-link::before;
+}
+
+.#{$fa-css-prefix}-cut::before {
+  @extend .#{$fa-css-prefix}-scissors::before;
+}
+
+
+.#{$fa-css-prefix}-copy::before {
+  @extend .#{$fa-css-prefix}-files-o::before;
+}
+
+.#{$fa-css-prefix}-save::before {
+  @extend .#{$fa-css-prefix}-floppy-o::before;
+ }
+
+.#{$fa-css-prefix}-navicon::before,
+.#{$fa-css-prefix}-reorder::before {
+  @extend .#{$fa-css-prefix}-bars::before;
+}
+
+.#{$fa-css-prefix}-unsorted::before {
+  @extend .#{$fa-css-prefix}-sort::before;
+}
+
+.#{$fa-css-prefix}-sort-down::before {
+  @extend .#{$fa-css-prefix}-sort-desc::before;
+}
+
+.#{$fa-css-prefix}-sort-up::before {
+  @extend .#{$fa-css-prefix}-sort-asc::before;
+}
+
+.#{$fa-css-prefix}-rotate-left::before {
+  @extend .#{$fa-css-prefix}-undo::before;
+}
+
+.#{$fa-css-prefix}-legal::before {
+  @extend .#{$fa-css-prefix}-gavel::before;
+}
+
+.#{$fa-css-prefix}-dashboard::before {
+  @extend .#{$fa-css-prefix}-tachometer::before;
+}
+
+.#{$fa-css-prefix}-flash::before {
+  @extend .#{$fa-css-prefix}-bolt::before;
+}
+
+.#{$fa-css-prefix}-paste::before {
+  @extend .#{$fa-css-prefix}-clipboard::before;
+}
+
+.#{$fa-css-prefix}-mobile-phone::before {
+  @extend .#{$fa-css-prefix}-mobile::before;
+}
+
+.#{$fa-css-prefix}-mail-reply::before {
+  @extend .#{$fa-css-prefix}-reply::before;
+}
+
+.#{$fa-css-prefix}-mail-reply-all::before {
+  @extend .#{$fa-css-prefix}-reply-all::before;
+}
+
+.#{$fa-css-prefix}-star-half-empty::before,
+.#{$fa-css-prefix}-star-half-full::before {
+  @extend .#{$fa-css-prefix}-star-half-o::before;
+}
+
+.#{$fa-css-prefix}-unlink::before {
+  @extend .#{$fa-css-prefix}-chain-broken::before;
+}
+
+.#{$fa-css-prefix}-toggle-down::before {
+  @extend .#{$fa-css-prefix}-caret-square-o-down::before;
+}
+
+.#{$fa-css-prefix}-toggle-up::before {
+  @extend .#{$fa-css-prefix}-caret-square-o-up::before;
+}
+
+.#{$fa-css-prefix}-toggle-right::before {
+  @extend .#{$fa-css-prefix}-caret-square-o-right::before;
+}
+
+.#{$fa-css-prefix}-euro::before {
+  @extend .#{$fa-css-prefix}-eur::before;
+}
+
+.#{$fa-css-prefix}-dollar::before {
+  @extend .#{$fa-css-prefix}-usd::before;
+}
+
+.#{$fa-css-prefix}-rupee::before {
+  @extend .#{$fa-css-prefix}-inr::before;
+}
+
+.#{$fa-css-prefix}-cny::before,
+.#{$fa-css-prefix}-rmb::before,
+.#{$fa-css-prefix}-yen::before {
+  @extend .#{$fa-css-prefix}-jpy::before;
+}
+
+.#{$fa-css-prefix}-ruble::before,
+.#{$fa-css-prefix}-rouble::before {
+  @extend .#{$fa-css-prefix}-rub::before;
+}
+
+.#{$fa-css-prefix}-won::before {
+  @extend .#{$fa-css-prefix}-krw::before;
+}
+
+.#{$fa-css-prefix}-bitcoin::before {
+  @extend .#{$fa-css-prefix}-btc::before;
+}
+
+.#{$fa-css-prefix}-gittip::before {
+  @extend .#{$fa-css-prefix}-gratipay::before;
+}
+
+.#{$fa-css-prefix}-toggle-left::before {
+  @extend .#{$fa-css-prefix}-caret-square-o-left::before;
+}
+
+.#{$fa-css-prefix}-turkish-lira::before {
+  @extend .#{$fa-css-prefix}-try::before;
+}
+
+.#{$fa-css-prefix}-institution::before,
+.#{$fa-css-prefix}-bank::before {
+  @extend .#{$fa-css-prefix}-university::before;
+}
+
+.#{$fa-css-prefix}-mortar-board::before {
+  @extend .#{$fa-css-prefix}-graduation-cap::before;
+}
+
+.#{$fa-css-prefix}-automobile::before {
+  @extend .#{$fa-css-prefix}-car::before;
+}
+
+.#{$fa-css-prefix}-cab::before {
+  @extend .#{$fa-css-prefix}-taxi::before;
+}
+
+.#{$fa-css-prefix}-file-photo-o::before,
+.#{$fa-css-prefix}-file-picture-o::before {
+  @extend .#{$fa-css-prefix}-file-image-o::before;
+}
+
+.#{$fa-css-prefix}-file-zip-o::before {
+  @extend .#{$fa-css-prefix}-file-archive-o::before;
+}
+
+.#{$fa-css-prefix}-file-sound-o::before {
+  @extend .#{$fa-css-prefix}-file-audio-o::before;
+}
+
+.#{$fa-css-prefix}-file-movie-o::before {
+  @extend .#{$fa-css-prefix}-file-video-o::before;
+}
+
+.#{$fa-css-prefix}-life-bouy::before,
+.#{$fa-css-prefix}-life-buoy::before,
+.#{$fa-css-prefix}-life-saver::before,
+.#{$fa-css-prefix}-support::before {
+  @extend .#{$fa-css-prefix}-life-ring::before;
+}
+
+.#{$fa-css-prefix}-ra::before,
+.#{$fa-css-prefix}-resistance::before {
+  @extend .#{$fa-css-prefix}-rebel::before;
+}
+
+.#{$fa-css-prefix}-ge::before {
+  @extend .#{$fa-css-prefix}-empire::before;
+}
+
+.#{$fa-css-prefix}-y-combinator-square::before,
+.#{$fa-css-prefix}-yc-square::before {
+  @extend .#{$fa-css-prefix}-hacker-news::before;
+}
+
+.#{$fa-css-prefix}-wechat::before {
+  @extend .#{$fa-css-prefix}-weixin::before;
+}
+
+.#{$fa-css-prefix}-send::before {
+  @extend .#{$fa-css-prefix}-paper-plane::before;
+}
+
+.#{$fa-css-prefix}-send-o::before {
+  @extend .#{$fa-css-prefix}-paper-plane-o::before;
+}
+
+.#{$fa-css-prefix}-soccer-ball-o::before {
+  @extend .#{$fa-css-prefix}-futbol-o::before;
+}
+
+.#{$fa-css-prefix}-shekel::before,
+.#{$fa-css-prefix}-sheqel::before {
+  @extend .#{$fa-css-prefix}-ils::before;
+}
+
+.#{$fa-css-prefix}-intersex::before {
+  @extend .#{$fa-css-prefix}-transgender::before;
+}
+
+.#{$fa-css-prefix}-hotel::before {
+  @extend .#{$fa-css-prefix}-bed::before;
+}
+
+.#{$fa-css-prefix}-yc::before {
+  @extend .#{$fa-css-prefix}-y-combinator::before;
+}
+
+.#{$fa-css-prefix}-battery-4::before {
+  @extend .#{$fa-css-prefix}-battery-full::before;
+}
+
+.#{$fa-css-prefix}-battery-3::before {
+  @extend .#{$fa-css-prefix}-battery-three-quarters::before;
+}
+
+.#{$fa-css-prefix}-battery-2::before {
+  @extend .#{$fa-css-prefix}-battery-half::before;
+}
+
+.#{$fa-css-prefix}-battery-1::before {
+  @extend .#{$fa-css-prefix}-battery-quarter::before;
+}
+
+.#{$fa-css-prefix}-battery-0::before {
+  @extend .#{$fa-css-prefix}-battery-empty::before;
+}
+
+.#{$fa-css-prefix}-hourglass-1::before {
+  @extend .#{$fa-css-prefix}-hourglass-start::before;
+}
+
+.#{$fa-css-prefix}-hourglass-2::before  {
+  @extend .#{$fa-css-prefix}-hourglass-half::before;
+}
+
+.#{$fa-css-prefix}-hourglass-3::before {
+  @extend .#{$fa-css-prefix}-hourglass-end::before;
+}
+
+.#{$fa-css-prefix}-hand-grab-o::before {
+  @extend .#{$fa-css-prefix}-hand-rock-o::before;
+}
+
+.#{$fa-css-prefix}-hand-stop-o::before {
+  @extend .#{$fa-css-prefix}-hand-paper-o::before;
+}
+
+.#{$fa-css-prefix}-tv::before {
+  @extend .#{$fa-css-prefix}-television::before;
+}
+
+.#{$fa-css-prefix}-asl-interpreting::before {
+  @extend .#{$fa-css-prefix}-american-sign-language-interpreting::before;
+}
+
+.#{$fa-css-prefix}-deafness::before,
+.#{$fa-css-prefix}-hard-of-hearing::before {
+  @extend .#{$fa-css-prefix}-deaf::before;
+}
+
+.#{$fa-css-prefix}-signing::before {
+  @extend .#{$fa-css-prefix}-sign-language::before;
+}
+
+
+.#{$fa-css-prefix}-google-plus-circle::before {
+  @extend .#{$fa-css-prefix}-google-plus-official::before;
+}
+
+.#{$fa-css-prefix}-feed::before {
+  @extend .#{$fa-css-prefix}-rss::before;
+}
+
+.#{$fa-css-prefix}-fa::before {
+  @extend .#{$fa-css-prefix}-font-awesome::before;
+}

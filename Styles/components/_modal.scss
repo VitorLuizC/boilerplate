@@ -1,0 +1,38 @@
+﻿$modal-shadow-color: rgba(0,0,0, .6) !default;
+
+$modal-clear-content-color: rgb(255,255,255) !default;
+
+.modal {
+  position: relative;
+  display: none;
+  z-index: 1;
+
+  &.active { display: block; }
+
+  & > .content {
+    @include centralize(fixed);
+    z-index: 1;
+
+    &.clear-content {
+      background-color: transparent;
+      color: $modal-clear-content-color;
+    }
+  }
+
+  &.modal-loader > .content {
+    text-align: center;
+
+    .loader { @include centralize(block-x); }
+
+    .text { margin-top: 10px; }
+  }
+
+  & > .shadow {
+    @include full-size;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: $modal-shadow-color;
+    z-index: -1;
+  }
+}

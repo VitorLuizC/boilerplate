@@ -1,0 +1,21 @@
+%-silly-clearfix {
+  overflow: auto;
+}
+
+%-heavy-clearfix {
+  &::before, &::after {
+    display: block;
+    clear: both;
+    content: '';
+  }
+}
+
+@mixin clearfix($type: heavy) {
+  @if ($type == heavy) {
+    @extend %-heavy-clearfix;
+  } @else if ($type == silly) {
+    @extend %-silly-clearfix;
+  } @else {
+    @include throw('invalid clearfix type \'#{$type}\'', error);
+  }
+}

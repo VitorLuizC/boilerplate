@@ -1,0 +1,20 @@
+﻿@mixin rect($width, $height) {
+  box-sizing: border-box;
+  display: block;
+  width: $width;
+  height: $height;
+}
+
+@mixin square($size) {
+  @include rect($size, $size);
+}
+
+@mixin ellipse($width, $height) {
+  @include rect($width, $height);
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+@mixin circle($size) {
+  @include ellipse($size, $size);
+}

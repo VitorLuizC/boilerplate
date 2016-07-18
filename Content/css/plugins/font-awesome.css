@@ -1,0 +1,3987 @@
+/*!
+ *  Font Awesome 4.6.3 by @davegandy - http://fontawesome.io - @fontawesome
+ *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
+ */
+/* FONT PATH
+ * -------------------------- */
+@font-face {
+  font-family: 'FontAwesome';
+  src: url("../../font/font-awesome/font-awesome.eot?v=4.6.3");
+  src: url("../../font/font-awesome/font-awesome.eot?#iefix&v=4.6.3") format("embedded-opentype"), url("../../font/font-awesome/font-awesome.woff2?v=4.6.3") format("woff2"), url("../../font/font-awesome/font-awesome.woff?v=4.6.3") format("woff"), url("../../font/font-awesome/font-awesome.ttf?v=4.6.3") format("truetype"), url("../../font/font-awesome/font-awesome.svg?v=4.6.3#fontawesomeregular") format("svg");
+}
+
+/* line 4, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_core.scss */
+.icon {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* makes the font 33% larger relative to the icon container */
+/* line 5, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_larger.scss */
+.icon-lg {
+  font-size: 1.33333em;
+  line-height: 0.75em;
+  vertical-align: -15%;
+}
+
+/* line 10, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_larger.scss */
+.icon-2x {
+  font-size: 2em;
+}
+
+/* line 11, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_larger.scss */
+.icon-2-and-half-x {
+  font-size: 2.5em;
+}
+
+/* line 12, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_larger.scss */
+.icon-3x {
+  font-size: 3em;
+}
+
+/* line 13, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_larger.scss */
+.icon-4x {
+  font-size: 4em;
+}
+
+/* line 14, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_larger.scss */
+.icon-5x {
+  font-size: 5em;
+}
+
+/* line 3, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_fixed-width.scss */
+.icon-fw {
+  width: 1.28571em;
+  text-align: center;
+}
+
+/* line 4, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_list.scss */
+.icon-ul {
+  padding-left: 0;
+  margin-left: 2.14286em;
+  list-style-type: none;
+}
+
+/* line 8, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_list.scss */
+.icon-ul > li {
+  position: relative;
+}
+
+/* line 10, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_list.scss */
+.icon-li {
+  position: absolute;
+  left: -2.14286em;
+  width: 2.14286em;
+  top: 0.14286em;
+  text-align: center;
+}
+
+/* line 16, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_list.scss */
+.icon-li.icon-lg {
+  left: -1.85714em;
+}
+
+/* line 4, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_bordered-pulled.scss */
+.icon-border {
+  padding: .2em .25em .15em;
+  border: solid 0.08em #eee;
+  -webkit-border-radius: .1em;
+     -moz-border-radius: .1em;
+          border-radius: .1em;
+}
+
+/* line 10, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_bordered-pulled.scss */
+.icon-pull-left {
+  float: left;
+}
+
+/* line 11, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_bordered-pulled.scss */
+.icon-pull-right {
+  float: right;
+}
+
+/* line 14, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_bordered-pulled.scss */
+.icon.icon-pull-left {
+  margin-right: .3em;
+}
+
+/* line 15, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_bordered-pulled.scss */
+.icon.icon-pull-right {
+  margin-left: .3em;
+}
+
+/* Deprecated as of 4.4.0 */
+/* line 19, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_bordered-pulled.scss */
+.pull-right {
+  float: right;
+}
+
+/* line 20, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_bordered-pulled.scss */
+.pull-left {
+  float: left;
+}
+
+/* line 23, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_bordered-pulled.scss */
+.icon.pull-left {
+  margin-right: .3em;
+}
+
+/* line 24, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_bordered-pulled.scss */
+.icon.pull-right {
+  margin-left: .3em;
+}
+
+/* line 4, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_animated.scss */
+.icon-spin {
+  -webkit-animation: fa-spin 2s infinite linear;
+  -moz-animation: fa-spin 2s infinite linear;
+    -o-animation: fa-spin 2s infinite linear;
+       animation: fa-spin 2s infinite linear;
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_animated.scss */
+.icon-pulse {
+  -webkit-animation: fa-spin 1s infinite steps(8);
+  -moz-animation: fa-spin 1s infinite steps(8);
+    -o-animation: fa-spin 1s infinite steps(8);
+       animation: fa-spin 1s infinite steps(8);
+}
+
+@-webkit-keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+
+@-moz-keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+         transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    -moz-transform: rotate(359deg);
+         transform: rotate(359deg);
+  }
+}
+
+@-o-keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+       transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    -o-transform: rotate(359deg);
+       transform: rotate(359deg);
+  }
+}
+
+@keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+      -o-transform: rotate(0deg);
+         transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    -moz-transform: rotate(359deg);
+      -o-transform: rotate(359deg);
+         transform: rotate(359deg);
+  }
+}
+
+/* line 4, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_rotated-flipped.scss */
+.icon-rotate-90 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+       transform: rotate(90deg);
+}
+
+/* line 5, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_rotated-flipped.scss */
+.icon-rotate-180 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+       transform: rotate(180deg);
+}
+
+/* line 6, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_rotated-flipped.scss */
+.icon-rotate-270 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=3)";
+  -webkit-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  -moz-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+       transform: rotate(270deg);
+}
+
+/* line 8, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_rotated-flipped.scss */
+.icon-flip-horizontal {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1)";
+  -webkit-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  -moz-transform: scale(-1, 1);
+    -o-transform: scale(-1, 1);
+       transform: scale(-1, 1);
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_rotated-flipped.scss */
+.icon-flip-vertical {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)";
+  -webkit-transform: scale(1, -1);
+  -ms-transform: scale(1, -1);
+  -moz-transform: scale(1, -1);
+    -o-transform: scale(1, -1);
+       transform: scale(1, -1);
+}
+
+/* line 14, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_rotated-flipped.scss */
+:root .icon-rotate-90,
+:root .icon-rotate-180,
+:root .icon-rotate-270,
+:root .icon-flip-horizontal,
+:root .icon-flip-vertical {
+  -webkit-filter: none;
+          filter: none;
+}
+
+/* line 4, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_stacked.scss */
+.icon-stack {
+  position: relative;
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  line-height: 2em;
+  vertical-align: middle;
+}
+
+/* line 12, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_stacked.scss */
+.icon-stack-1x, .icon-stack-2x {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+
+/* line 18, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_stacked.scss */
+.icon-stack-1x {
+  line-height: inherit;
+}
+
+/* line 19, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_stacked.scss */
+.icon-stack-2x {
+  font-size: 2em;
+}
+
+/* line 20, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_stacked.scss */
+.icon-inverse {
+  color: #fff;
+}
+
+/* Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
+   readers do not read off random characters that represent icons */
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-500px::before {
+  content: '\f26e';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-adjust::before {
+  content: '\f042';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-adn::before {
+  content: '\f170';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-align-center::before {
+  content: '\f037';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-align-justify::before {
+  content: '\f039';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-align-left::before {
+  content: '\f036';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-align-right::before {
+  content: '\f038';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-amazon::before {
+  content: '\f270';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-ambulance::before {
+  content: '\f0f9';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-american-sign-language-interpreting::before, .icon-asl-interpreting::before {
+  content: '\f2a3';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-anchor::before {
+  content: '\f13d';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-android::before {
+  content: '\f17b';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-angellist::before {
+  content: '\f209';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-angle-double-down::before {
+  content: '\f103';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-angle-double-left::before {
+  content: '\f100';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-angle-double-right::before {
+  content: '\f101';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-angle-double-up::before {
+  content: '\f102';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-angle-down::before {
+  content: '\f107';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-angle-left::before {
+  content: '\f104';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-angle-right::before {
+  content: '\f105';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-angle-up::before {
+  content: '\f106';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-apple::before {
+  content: '\f179';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-archive::before {
+  content: '\f187';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-area-chart::before {
+  content: '\f1fe';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-arrow-circle-down::before {
+  content: '\f0ab';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-arrow-circle-left::before {
+  content: '\f0a8';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-arrow-circle-o-down::before {
+  content: '\f01a';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-arrow-circle-o-left::before {
+  content: '\f190';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-arrow-circle-o-right::before {
+  content: '\f18e';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-arrow-circle-o-up::before {
+  content: '\f01b';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-arrow-circle-right::before {
+  content: '\f0a9';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-arrow-circle-up::before {
+  content: '\f0aa';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-arrow-down::before {
+  content: '\f063';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-arrow-left::before {
+  content: '\f060';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-arrow-right::before {
+  content: '\f061';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-arrow-up::before {
+  content: '\f062';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-arrows::before {
+  content: '\f047';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-arrows-alt::before {
+  content: '\f0b2';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-arrows-h::before {
+  content: '\f07e';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-arrows-v::before {
+  content: '\f07d';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-asl-interpreting::before {
+  content: '\f2a3';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-assistive-listening-systems::before {
+  content: '\f2a2';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-asterisk::before {
+  content: '\f069';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-at::before {
+  content: '\f1fa';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-audio-description::before {
+  content: '\f29e';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-automobile::before {
+  content: '\f1b9';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-backward::before {
+  content: '\f04a';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-balance-scale::before {
+  content: '\f24e';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-ban::before {
+  content: '\f05e';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-bank::before {
+  content: '\f19c';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-bar-chart::before, .icon-bar-chart-o::before {
+  content: '\f080';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-bar-chart-o::before {
+  content: '\f080';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-barcode::before {
+  content: '\f02a';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-bars::before, .icon-navicon::before,
+.icon-reorder::before {
+  content: '\f0c9';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-battery-0::before {
+  content: '\f244';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-battery-1::before {
+  content: '\f243';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-battery-2::before {
+  content: '\f242';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-battery-3::before {
+  content: '\f241';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-battery-4::before {
+  content: '\f240';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-battery-empty::before, .icon-battery-0::before {
+  content: '\f244';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-battery-full::before, .icon-battery-4::before {
+  content: '\f240';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-battery-half::before, .icon-battery-2::before {
+  content: '\f242';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-battery-quarter::before, .icon-battery-1::before {
+  content: '\f243';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-battery-three-quarters::before, .icon-battery-3::before {
+  content: '\f241';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-bed::before, .icon-hotel::before {
+  content: '\f236';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-beer::before {
+  content: '\f0fc';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-behance::before {
+  content: '\f1b4';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-behance-square::before {
+  content: '\f1b5';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-bell::before {
+  content: '\f0f3';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-bell-o::before {
+  content: '\f0a2';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-bell-slash::before {
+  content: '\f1f6';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-bell-slash-o::before {
+  content: '\f1f7';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-bicycle::before {
+  content: '\f206';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-binoculars::before {
+  content: '\f1e5';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-birthday-cake::before {
+  content: '\f1fd';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-bitbucket::before {
+  content: '\f171';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-bitbucket-square::before {
+  content: '\f172';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-bitcoin::before {
+  content: '\f15a';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-black-tie::before {
+  content: '\f27e';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-blind::before {
+  content: '\f29d';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-bluetooth::before {
+  content: '\f293';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-bluetooth-b::before {
+  content: '\f294';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-bold::before {
+  content: '\f032';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-bolt::before, .icon-flash::before {
+  content: '\f0e7';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-bomb::before {
+  content: '\f1e2';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-book::before {
+  content: '\f02d';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-bookmark::before {
+  content: '\f02e';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-bookmark-o::before {
+  content: '\f097';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-braille::before {
+  content: '\f2a1';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-briefcase::before {
+  content: '\f0b1';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-btc::before, .icon-bitcoin::before {
+  content: '\f15a';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-bug::before {
+  content: '\f188';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-building::before {
+  content: '\f1ad';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-building-o::before {
+  content: '\f0f7';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-bullhorn::before {
+  content: '\f0a1';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-bullseye::before {
+  content: '\f140';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-bus::before {
+  content: '\f207';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-buysellads::before {
+  content: '\f20d';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-cab::before {
+  content: '\f1ba';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-calculator::before {
+  content: '\f1ec';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-calendar::before {
+  content: '\f073';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-calendar-check-o::before {
+  content: '\f274';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-calendar-minus-o::before {
+  content: '\f272';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-calendar-o::before {
+  content: '\f133';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-calendar-plus-o::before {
+  content: '\f271';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-calendar-times-o::before {
+  content: '\f273';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-camera::before {
+  content: '\f030';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-camera-retro::before {
+  content: '\f083';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-car::before, .icon-automobile::before {
+  content: '\f1b9';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-caret-down::before {
+  content: '\f0d7';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-caret-left::before {
+  content: '\f0d9';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-caret-right::before {
+  content: '\f0da';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-caret-square-o-down::before, .icon-toggle-down::before {
+  content: '\f150';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-caret-square-o-left::before, .icon-toggle-left::before {
+  content: '\f191';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-caret-square-o-right::before, .icon-toggle-right::before {
+  content: '\f152';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-caret-square-o-up::before, .icon-toggle-up::before {
+  content: '\f151';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-caret-up::before {
+  content: '\f0d8';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-cart-arrow-down::before {
+  content: '\f218';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-cart-plus::before {
+  content: '\f217';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-cc::before {
+  content: '\f20a';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-cc-amex::before {
+  content: '\f1f3';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-cc-diners-club::before {
+  content: '\f24c';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-cc-discover::before {
+  content: '\f1f2';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-cc-jcb::before {
+  content: '\f24b';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-cc-mastercard::before {
+  content: '\f1f1';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-cc-paypal::before {
+  content: '\f1f4';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-cc-stripe::before {
+  content: '\f1f5';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-cc-visa::before {
+  content: '\f1f0';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-certificate::before {
+  content: '\f0a3';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-chain::before {
+  content: '\f0c1';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-chain-broken::before, .icon-unlink::before {
+  content: '\f127';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-check::before {
+  content: '\f00c';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-check-circle::before {
+  content: '\f058';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-check-circle-o::before {
+  content: '\f05d';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-check-square::before {
+  content: '\f14a';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-check-square-o::before {
+  content: '\f046';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-chevron-circle-down::before {
+  content: '\f13a';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-chevron-circle-left::before {
+  content: '\f137';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-chevron-circle-right::before {
+  content: '\f138';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-chevron-circle-up::before {
+  content: '\f139';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-chevron-down::before {
+  content: '\f078';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-chevron-left::before {
+  content: '\f053';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-chevron-right::before {
+  content: '\f054';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-chevron-up::before {
+  content: '\f077';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-child::before {
+  content: '\f1ae';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-chrome::before {
+  content: '\f268';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-circle::before {
+  content: '\f111';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-circle-o::before {
+  content: '\f10c';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-circle-o-notch::before {
+  content: '\f1ce';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-circle-thin::before {
+  content: '\f1db';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-clipboard::before, .icon-paste::before {
+  content: '\f0ea';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-clock-o::before {
+  content: '\f017';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-clone::before {
+  content: '\f24d';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-close::before {
+  content: '\f00d';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-cloud::before {
+  content: '\f0c2';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-cloud-download::before {
+  content: '\f0ed';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-cloud-upload::before {
+  content: '\f0ee';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-cny::before {
+  content: '\f157';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-code::before {
+  content: '\f121';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-code-fork::before {
+  content: '\f126';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-codepen::before {
+  content: '\f1cb';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-codiepie::before {
+  content: '\f284';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-coffee::before {
+  content: '\f0f4';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-cog::before, .icon-gear::before {
+  content: '\f013';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-cogs::before, .icon-gears::before {
+  content: '\f085';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-columns::before {
+  content: '\f0db';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-comment::before {
+  content: '\f075';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-comment-o::before {
+  content: '\f0e5';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-commenting::before {
+  content: '\f27a';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-commenting-o::before {
+  content: '\f27b';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-comments::before {
+  content: '\f086';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-comments-o::before {
+  content: '\f0e6';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-compass::before {
+  content: '\f14e';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-compress::before {
+  content: '\f066';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-connectdevelop::before {
+  content: '\f20e';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-contao::before {
+  content: '\f26d';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-copy::before {
+  content: '\f0c5';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-copyright::before {
+  content: '\f1f9';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-creative-commons::before {
+  content: '\f25e';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-credit-card::before {
+  content: '\f09d';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-credit-card-alt::before {
+  content: '\f283';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-crop::before {
+  content: '\f125';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-crosshairs::before {
+  content: '\f05b';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-css3::before {
+  content: '\f13c';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-cube::before {
+  content: '\f1b2';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-cubes::before {
+  content: '\f1b3';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-cut::before {
+  content: '\f0c4';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-cutlery::before {
+  content: '\f0f5';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-dashboard::before {
+  content: '\f0e4';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-dashcube::before {
+  content: '\f210';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-database::before {
+  content: '\f1c0';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-deaf::before, .icon-deafness::before,
+.icon-hard-of-hearing::before {
+  content: '\f2a4';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-deafness::before {
+  content: '\f2a4';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-dedent::before {
+  content: '\f03b';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-delicious::before {
+  content: '\f1a5';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-desktop::before {
+  content: '\f108';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-deviantart::before {
+  content: '\f1bd';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-diamond::before {
+  content: '\f219';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-digg::before {
+  content: '\f1a6';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-dollar::before {
+  content: '\f155';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-dot-circle-o::before {
+  content: '\f192';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-download::before {
+  content: '\f019';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-dribbble::before {
+  content: '\f17d';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-dropbox::before {
+  content: '\f16b';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-drupal::before {
+  content: '\f1a9';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-edge::before {
+  content: '\f282';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-edit::before {
+  content: '\f044';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-eject::before {
+  content: '\f052';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-ellipsis-h::before {
+  content: '\f141';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-ellipsis-v::before {
+  content: '\f142';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-empire::before, .icon-ge::before {
+  content: '\f1d1';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-envelope::before {
+  content: '\f0e0';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-envelope-o::before {
+  content: '\f003';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-envelope-square::before {
+  content: '\f199';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-envira::before {
+  content: '\f299';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-eraser::before {
+  content: '\f12d';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-eur::before, .icon-euro::before {
+  content: '\f153';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-euro::before {
+  content: '\f153';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-exchange::before {
+  content: '\f0ec';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-exclamation::before {
+  content: '\f12a';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-exclamation-circle::before {
+  content: '\f06a';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-exclamation-triangle::before, .icon-warning::before {
+  content: '\f071';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-expand::before {
+  content: '\f065';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-expeditedssl::before {
+  content: '\f23e';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-external-link::before {
+  content: '\f08e';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-external-link-square::before {
+  content: '\f14c';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-eye::before {
+  content: '\f06e';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-eye-slash::before {
+  content: '\f070';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-eyedropper::before {
+  content: '\f1fb';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-fa::before {
+  content: '\f2b4';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-facebook::before, .icon-facebook-f::before {
+  content: '\f09a';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-facebook-f::before {
+  content: '\f09a';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-facebook-official::before {
+  content: '\f230';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-facebook-square::before {
+  content: '\f082';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-fast-backward::before {
+  content: '\f049';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-fast-forward::before {
+  content: '\f050';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-fax::before {
+  content: '\f1ac';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-feed::before {
+  content: '\f09e';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-female::before {
+  content: '\f182';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-fighter-jet::before {
+  content: '\f0fb';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-file::before {
+  content: '\f15b';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-file-archive-o::before, .icon-file-zip-o::before {
+  content: '\f1c6';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-file-audio-o::before, .icon-file-sound-o::before {
+  content: '\f1c7';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-file-code-o::before {
+  content: '\f1c9';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-file-excel-o::before {
+  content: '\f1c3';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-file-image-o::before, .icon-file-photo-o::before,
+.icon-file-picture-o::before {
+  content: '\f1c5';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-file-movie-o::before {
+  content: '\f1c8';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-file-o::before {
+  content: '\f016';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-file-pdf-o::before {
+  content: '\f1c1';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-file-photo-o::before {
+  content: '\f1c5';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-file-picture-o::before {
+  content: '\f1c5';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-file-powerpoint-o::before {
+  content: '\f1c4';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-file-sound-o::before {
+  content: '\f1c7';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-file-text::before {
+  content: '\f15c';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-file-text-o::before {
+  content: '\f0f6';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-file-video-o::before, .icon-file-movie-o::before {
+  content: '\f1c8';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-file-word-o::before {
+  content: '\f1c2';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-file-zip-o::before {
+  content: '\f1c6';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-files-o::before, .icon-copy::before {
+  content: '\f0c5';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-film::before {
+  content: '\f008';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-filter::before {
+  content: '\f0b0';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-fire::before {
+  content: '\f06d';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-fire-extinguisher::before {
+  content: '\f134';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-firefox::before {
+  content: '\f269';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-first-order::before {
+  content: '\f2b0';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-flag::before {
+  content: '\f024';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-flag-checkered::before {
+  content: '\f11e';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-flag-o::before {
+  content: '\f11d';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-flash::before {
+  content: '\f0e7';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-flask::before {
+  content: '\f0c3';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-flickr::before {
+  content: '\f16e';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-floppy-o::before, .icon-save::before {
+  content: '\f0c7';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-folder::before {
+  content: '\f07b';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-folder-o::before {
+  content: '\f114';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-folder-open::before {
+  content: '\f07c';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-folder-open-o::before {
+  content: '\f115';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-font::before {
+  content: '\f031';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-font-awesome::before, .icon-fa::before {
+  content: '\f2b4';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-fonticons::before {
+  content: '\f280';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-fort-awesome::before {
+  content: '\f286';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-forumbee::before {
+  content: '\f211';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-forward::before {
+  content: '\f04e';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-foursquare::before {
+  content: '\f180';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-frown-o::before {
+  content: '\f119';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-futbol-o::before, .icon-soccer-ball-o::before {
+  content: '\f1e3';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-gamepad::before {
+  content: '\f11b';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-gavel::before, .icon-legal::before {
+  content: '\f0e3';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-gbp::before {
+  content: '\f154';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-ge::before {
+  content: '\f1d1';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-gear::before {
+  content: '\f013';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-gears::before {
+  content: '\f085';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-genderless::before {
+  content: '\f22d';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-get-pocket::before {
+  content: '\f265';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-gg::before {
+  content: '\f260';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-gg-circle::before {
+  content: '\f261';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-gift::before {
+  content: '\f06b';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-git::before {
+  content: '\f1d3';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-git-square::before {
+  content: '\f1d2';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-github::before {
+  content: '\f09b';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-github-alt::before {
+  content: '\f113';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-github-square::before {
+  content: '\f092';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-gitlab::before {
+  content: '\f296';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-gittip::before {
+  content: '\f184';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-glass::before {
+  content: '\f000';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-glide::before {
+  content: '\f2a5';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-glide-g::before {
+  content: '\f2a6';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-globe::before {
+  content: '\f0ac';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-google::before {
+  content: '\f1a0';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-google-plus::before {
+  content: '\f0d5';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-google-plus-circle::before {
+  content: '\f2b3';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-google-plus-official::before, .icon-google-plus-circle::before {
+  content: '\f2b3';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-google-plus-square::before {
+  content: '\f0d4';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-google-wallet::before {
+  content: '\f1ee';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-graduation-cap::before, .icon-mortar-board::before {
+  content: '\f19d';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-gratipay::before, .icon-gittip::before {
+  content: '\f184';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-group::before {
+  content: '\f0c0';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-h-square::before {
+  content: '\f0fd';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-hacker-news::before, .icon-y-combinator-square::before,
+.icon-yc-square::before {
+  content: '\f1d4';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-hand-grab-o::before {
+  content: '\f255';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-hand-lizard-o::before {
+  content: '\f258';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-hand-o-down::before {
+  content: '\f0a7';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-hand-o-left::before {
+  content: '\f0a5';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-hand-o-right::before {
+  content: '\f0a4';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-hand-o-up::before {
+  content: '\f0a6';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-hand-paper-o::before, .icon-hand-stop-o::before {
+  content: '\f256';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-hand-peace-o::before {
+  content: '\f25b';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-hand-pointer-o::before {
+  content: '\f25a';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-hand-rock-o::before, .icon-hand-grab-o::before {
+  content: '\f255';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-hand-scissors-o::before {
+  content: '\f257';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-hand-spock-o::before {
+  content: '\f259';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-hand-stop-o::before {
+  content: '\f256';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-hard-of-hearing::before {
+  content: '\f2a4';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-hashtag::before {
+  content: '\f292';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-hdd-o::before {
+  content: '\f0a0';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-header::before {
+  content: '\f1dc';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-headphones::before {
+  content: '\f025';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-heart::before {
+  content: '\f004';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-heart-o::before {
+  content: '\f08a';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-heartbeat::before {
+  content: '\f21e';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-history::before {
+  content: '\f1da';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-home::before {
+  content: '\f015';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-hospital-o::before {
+  content: '\f0f8';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-hotel::before {
+  content: '\f236';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-hourglass::before {
+  content: '\f254';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-hourglass-1::before {
+  content: '\f251';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-hourglass-2::before {
+  content: '\f252';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-hourglass-3::before {
+  content: '\f253';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-hourglass-end::before, .icon-hourglass-3::before {
+  content: '\f253';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-hourglass-half::before, .icon-hourglass-2::before {
+  content: '\f252';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-hourglass-o::before {
+  content: '\f250';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-hourglass-start::before, .icon-hourglass-1::before {
+  content: '\f251';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-houzz::before {
+  content: '\f27c';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-html5::before {
+  content: '\f13b';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-i-cursor::before {
+  content: '\f246';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-ils::before, .icon-shekel::before,
+.icon-sheqel::before {
+  content: '\f20b';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-image::before {
+  content: '\f03e';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-inbox::before {
+  content: '\f01c';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-indent::before {
+  content: '\f03c';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-industry::before {
+  content: '\f275';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-info::before {
+  content: '\f129';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-info-circle::before {
+  content: '\f05a';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-inr::before, .icon-rupee::before {
+  content: '\f156';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-instagram::before {
+  content: '\f16d';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-institution::before {
+  content: '\f19c';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-internet-explorer::before {
+  content: '\f26b';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-intersex::before {
+  content: '\f224';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-ioxhost::before {
+  content: '\f208';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-italic::before {
+  content: '\f033';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-joomla::before {
+  content: '\f1aa';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-jpy::before, .icon-cny::before,
+.icon-rmb::before,
+.icon-yen::before {
+  content: '\f157';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-jsfiddle::before {
+  content: '\f1cc';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-key::before {
+  content: '\f084';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-keyboard-o::before {
+  content: '\f11c';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-krw::before, .icon-won::before {
+  content: '\f159';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-language::before {
+  content: '\f1ab';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-laptop::before {
+  content: '\f109';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-lastfm::before {
+  content: '\f202';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-lastfm-square::before {
+  content: '\f203';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-leaf::before {
+  content: '\f06c';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-leanpub::before {
+  content: '\f212';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-legal::before {
+  content: '\f0e3';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-lemon-o::before {
+  content: '\f094';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-level-down::before {
+  content: '\f149';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-level-up::before {
+  content: '\f148';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-life-bouy::before {
+  content: '\f1cd';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-life-buoy::before {
+  content: '\f1cd';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-life-ring::before, .icon-life-bouy::before,
+.icon-life-buoy::before,
+.icon-life-saver::before,
+.icon-support::before {
+  content: '\f1cd';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-life-saver::before {
+  content: '\f1cd';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-lightbulb-o::before {
+  content: '\f0eb';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-line-chart::before {
+  content: '\f201';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-link::before, .icon-chain::before {
+  content: '\f0c1';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-linkedin::before {
+  content: '\f0e1';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-linkedin-square::before {
+  content: '\f08c';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-linux::before {
+  content: '\f17c';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-list::before {
+  content: '\f03a';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-list-alt::before {
+  content: '\f022';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-list-ol::before {
+  content: '\f0cb';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-list-ul::before {
+  content: '\f0ca';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-location-arrow::before {
+  content: '\f124';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-lock::before {
+  content: '\f023';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-long-arrow-down::before {
+  content: '\f175';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-long-arrow-left::before {
+  content: '\f177';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-long-arrow-right::before {
+  content: '\f178';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-long-arrow-up::before {
+  content: '\f176';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-low-vision::before {
+  content: '\f2a8';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-magic::before {
+  content: '\f0d0';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-magnet::before {
+  content: '\f076';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-mail-forward::before {
+  content: '\f064';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-mail-reply::before {
+  content: '\f112';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-mail-reply-all::before {
+  content: '\f122';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-male::before {
+  content: '\f183';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-map::before {
+  content: '\f279';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-map-marker::before {
+  content: '\f041';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-map-o::before {
+  content: '\f278';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-map-pin::before {
+  content: '\f276';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-map-signs::before {
+  content: '\f277';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-mars::before {
+  content: '\f222';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-mars-double::before {
+  content: '\f227';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-mars-stroke::before {
+  content: '\f229';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-mars-stroke-h::before {
+  content: '\f22b';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-mars-stroke-v::before {
+  content: '\f22a';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-maxcdn::before {
+  content: '\f136';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-meanpath::before {
+  content: '\f20c';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-medium::before {
+  content: '\f23a';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-medkit::before {
+  content: '\f0fa';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-meh-o::before {
+  content: '\f11a';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-mercury::before {
+  content: '\f223';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-microphone::before {
+  content: '\f130';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-microphone-slash::before {
+  content: '\f131';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-minus::before {
+  content: '\f068';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-minus-circle::before {
+  content: '\f056';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-minus-square::before {
+  content: '\f146';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-minus-square-o::before {
+  content: '\f147';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-mixcloud::before {
+  content: '\f289';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-mobile::before, .icon-mobile-phone::before {
+  content: '\f10b';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-mobile-phone::before {
+  content: '\f10b';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-modx::before {
+  content: '\f285';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-money::before {
+  content: '\f0d6';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-moon-o::before {
+  content: '\f186';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-mortar-board::before {
+  content: '\f19d';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-motorcycle::before {
+  content: '\f21c';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-mouse-pointer::before {
+  content: '\f245';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-music::before {
+  content: '\f001';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-navicon::before {
+  content: '\f0c9';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-neuter::before {
+  content: '\f22c';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-newspaper-o::before {
+  content: '\f1ea';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-object-group::before {
+  content: '\f247';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-object-ungroup::before {
+  content: '\f248';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-odnoklassniki::before {
+  content: '\f263';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-odnoklassniki-square::before {
+  content: '\f264';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-opencart::before {
+  content: '\f23d';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-openid::before {
+  content: '\f19b';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-opera::before {
+  content: '\f26a';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-optin-monster::before {
+  content: '\f23c';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-outdent::before, .icon-dedent::before {
+  content: '\f03b';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-pagelines::before {
+  content: '\f18c';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-paint-brush::before {
+  content: '\f1fc';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-paper-plane::before, .icon-send::before {
+  content: '\f1d8';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-paper-plane-o::before, .icon-send-o::before {
+  content: '\f1d9';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-paperclip::before {
+  content: '\f0c6';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-paragraph::before {
+  content: '\f1dd';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-paste::before {
+  content: '\f0ea';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-pause::before {
+  content: '\f04c';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-pause-circle::before {
+  content: '\f28b';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-pause-circle-o::before {
+  content: '\f28c';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-paw::before {
+  content: '\f1b0';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-paypal::before {
+  content: '\f1ed';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-pencil::before {
+  content: '\f040';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-pencil-square::before {
+  content: '\f14b';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-pencil-square-o::before, .icon-edit::before {
+  content: '\f044';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-percent::before {
+  content: '\f295';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-phone::before {
+  content: '\f095';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-phone-square::before {
+  content: '\f098';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-photo::before {
+  content: '\f03e';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-picture-o::before, .icon-photo::before,
+.icon-image::before {
+  content: '\f03e';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-pie-chart::before {
+  content: '\f200';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-pied-piper::before {
+  content: '\f2ae';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-pied-piper-alt::before {
+  content: '\f1a8';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-pied-piper-pp::before {
+  content: '\f1a7';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-pinterest::before {
+  content: '\f0d2';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-pinterest-p::before {
+  content: '\f231';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-pinterest-square::before {
+  content: '\f0d3';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-plane::before {
+  content: '\f072';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-play::before {
+  content: '\f04b';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-play-circle::before {
+  content: '\f144';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-play-circle-o::before {
+  content: '\f01d';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-plug::before {
+  content: '\f1e6';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-plus::before {
+  content: '\f067';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-plus-circle::before {
+  content: '\f055';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-plus-square::before {
+  content: '\f0fe';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-plus-square-o::before {
+  content: '\f196';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-power-off::before {
+  content: '\f011';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-print::before {
+  content: '\f02f';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-product-hunt::before {
+  content: '\f288';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-puzzle-piece::before {
+  content: '\f12e';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-qq::before {
+  content: '\f1d6';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-qrcode::before {
+  content: '\f029';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-question::before {
+  content: '\f128';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-question-circle::before {
+  content: '\f059';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-question-circle-o::before {
+  content: '\f29c';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-quote-left::before {
+  content: '\f10d';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-quote-right::before {
+  content: '\f10e';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-ra::before {
+  content: '\f1d0';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-random::before {
+  content: '\f074';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-rebel::before, .icon-ra::before,
+.icon-resistance::before {
+  content: '\f1d0';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-recycle::before {
+  content: '\f1b8';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-reddit::before {
+  content: '\f1a1';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-reddit-alien::before {
+  content: '\f281';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-reddit-square::before {
+  content: '\f1a2';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-refresh::before {
+  content: '\f021';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-registered::before {
+  content: '\f25d';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-remove::before {
+  content: '\f00d';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-renren::before {
+  content: '\f18b';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-reorder::before {
+  content: '\f0c9';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-repeat::before, .icon-rotate-right::before {
+  content: '\f01e';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-reply::before, .icon-mail-reply::before {
+  content: '\f112';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-reply-all::before, .icon-mail-reply-all::before {
+  content: '\f122';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-resistance::before {
+  content: '\f1d0';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-retweet::before {
+  content: '\f079';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-rmb::before {
+  content: '\f157';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-road::before {
+  content: '\f018';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-rocket::before {
+  content: '\f135';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-rotate-left::before {
+  content: '\f0e2';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-rotate-right::before {
+  content: '\f01e';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-rouble::before {
+  content: '\f158';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-rss::before, .icon-feed::before {
+  content: '\f09e';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-rss-square::before {
+  content: '\f143';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-rub::before, .icon-ruble::before,
+.icon-rouble::before {
+  content: '\f158';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-ruble::before {
+  content: '\f158';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-rupee::before {
+  content: '\f156';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-safari::before {
+  content: '\f267';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-save::before {
+  content: '\f0c7';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-scissors::before, .icon-cut::before {
+  content: '\f0c4';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-scribd::before {
+  content: '\f28a';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-search::before {
+  content: '\f002';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-search-minus::before {
+  content: '\f010';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-search-plus::before {
+  content: '\f00e';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-sellsy::before {
+  content: '\f213';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-send::before {
+  content: '\f1d8';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-send-o::before {
+  content: '\f1d9';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-server::before {
+  content: '\f233';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-share::before, .icon-mail-forward::before {
+  content: '\f064';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-share-alt::before {
+  content: '\f1e0';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-share-alt-square::before {
+  content: '\f1e1';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-share-square::before {
+  content: '\f14d';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-share-square-o::before {
+  content: '\f045';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-shekel::before {
+  content: '\f20b';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-sheqel::before {
+  content: '\f20b';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-shield::before {
+  content: '\f132';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-ship::before {
+  content: '\f21a';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-shirtsinbulk::before {
+  content: '\f214';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-shopping-bag::before {
+  content: '\f290';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-shopping-basket::before {
+  content: '\f291';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-shopping-cart::before {
+  content: '\f07a';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-sign-in::before {
+  content: '\f090';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-sign-language::before, .icon-signing::before {
+  content: '\f2a7';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-sign-out::before {
+  content: '\f08b';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-signal::before {
+  content: '\f012';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-signing::before {
+  content: '\f2a7';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-simplybuilt::before {
+  content: '\f215';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-sitemap::before {
+  content: '\f0e8';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-skyatlas::before {
+  content: '\f216';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-skype::before {
+  content: '\f17e';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-slack::before {
+  content: '\f198';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-sliders::before {
+  content: '\f1de';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-slideshare::before {
+  content: '\f1e7';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-smile-o::before {
+  content: '\f118';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-snapchat::before {
+  content: '\f2ab';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-snapchat-ghost::before {
+  content: '\f2ac';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-snapchat-square::before {
+  content: '\f2ad';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-soccer-ball-o::before {
+  content: '\f1e3';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-sort::before, .icon-unsorted::before {
+  content: '\f0dc';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-sort-alpha-asc::before {
+  content: '\f15d';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-sort-alpha-desc::before {
+  content: '\f15e';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-sort-amount-asc::before {
+  content: '\f160';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-sort-amount-desc::before {
+  content: '\f161';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-sort-asc::before, .icon-sort-up::before {
+  content: '\f0de';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-sort-desc::before, .icon-sort-down::before {
+  content: '\f0dd';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-sort-down::before {
+  content: '\f0dd';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-sort-numeric-asc::before {
+  content: '\f162';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-sort-numeric-desc::before {
+  content: '\f163';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-sort-up::before {
+  content: '\f0de';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-soundcloud::before {
+  content: '\f1be';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-space-shuttle::before {
+  content: '\f197';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-spinner::before {
+  content: '\f110';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-spoon::before {
+  content: '\f1b1';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-spotify::before {
+  content: '\f1bc';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-square::before {
+  content: '\f0c8';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-square-o::before {
+  content: '\f096';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-stack-exchange::before {
+  content: '\f18d';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-stack-overflow::before {
+  content: '\f16c';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-star::before {
+  content: '\f005';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-star-half::before {
+  content: '\f089';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-star-half-empty::before {
+  content: '\f123';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-star-half-full::before {
+  content: '\f123';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-star-half-o::before, .icon-star-half-empty::before,
+.icon-star-half-full::before {
+  content: '\f123';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-star-o::before {
+  content: '\f006';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-steam::before {
+  content: '\f1b6';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-steam-square::before {
+  content: '\f1b7';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-step-backward::before {
+  content: '\f048';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-step-forward::before {
+  content: '\f051';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-stethoscope::before {
+  content: '\f0f1';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-sticky-note::before {
+  content: '\f249';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-sticky-note-o::before {
+  content: '\f24a';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-stop::before {
+  content: '\f04d';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-stop-circle::before {
+  content: '\f28d';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-stop-circle-o::before {
+  content: '\f28e';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-street-view::before {
+  content: '\f21d';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-strikethrough::before {
+  content: '\f0cc';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-stumbleupon::before {
+  content: '\f1a4';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-stumbleupon-circle::before {
+  content: '\f1a3';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-subscript::before {
+  content: '\f12c';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-subway::before {
+  content: '\f239';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-suitcase::before {
+  content: '\f0f2';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-sun-o::before {
+  content: '\f185';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-superscript::before {
+  content: '\f12b';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-support::before {
+  content: '\f1cd';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-table::before {
+  content: '\f0ce';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-tablet::before {
+  content: '\f10a';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-tachometer::before, .icon-dashboard::before {
+  content: '\f0e4';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-tag::before {
+  content: '\f02b';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-tags::before {
+  content: '\f02c';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-tasks::before {
+  content: '\f0ae';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-taxi::before, .icon-cab::before {
+  content: '\f1ba';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-television::before, .icon-tv::before {
+  content: '\f26c';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-tencent-weibo::before {
+  content: '\f1d5';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-terminal::before {
+  content: '\f120';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-text-height::before {
+  content: '\f034';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-text-width::before {
+  content: '\f035';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-th::before {
+  content: '\f00a';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-th-large::before {
+  content: '\f009';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-th-list::before {
+  content: '\f00b';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-themeisle::before {
+  content: '\f2b2';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-thumb-tack::before {
+  content: '\f08d';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-thumbs-down::before {
+  content: '\f165';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-thumbs-o-down::before {
+  content: '\f088';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-thumbs-o-up::before {
+  content: '\f087';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-thumbs-up::before {
+  content: '\f164';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-ticket::before {
+  content: '\f145';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-times::before, .icon-remove::before,
+.icon-close::before {
+  content: '\f00d';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-times-circle::before {
+  content: '\f057';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-times-circle-o::before {
+  content: '\f05c';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-tint::before {
+  content: '\f043';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-toggle-down::before {
+  content: '\f150';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-toggle-left::before {
+  content: '\f191';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-toggle-off::before {
+  content: '\f204';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-toggle-on::before {
+  content: '\f205';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-toggle-right::before {
+  content: '\f152';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-toggle-up::before {
+  content: '\f151';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-trademark::before {
+  content: '\f25c';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-train::before {
+  content: '\f238';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-transgender::before, .icon-intersex::before {
+  content: '\f224';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-transgender-alt::before {
+  content: '\f225';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-trash::before {
+  content: '\f1f8';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-trash-o::before {
+  content: '\f014';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-tree::before {
+  content: '\f1bb';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-trello::before {
+  content: '\f181';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-tripadvisor::before {
+  content: '\f262';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-trophy::before {
+  content: '\f091';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-truck::before {
+  content: '\f0d1';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-try::before, .icon-turkish-lira::before {
+  content: '\f195';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-tty::before {
+  content: '\f1e4';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-tumblr::before {
+  content: '\f173';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-tumblr-square::before {
+  content: '\f174';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-turkish-lira::before {
+  content: '\f195';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-tv::before {
+  content: '\f26c';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-twitch::before {
+  content: '\f1e8';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-twitter::before {
+  content: '\f099';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-twitter-square::before {
+  content: '\f081';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-umbrella::before {
+  content: '\f0e9';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-underline::before {
+  content: '\f0cd';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-undo::before, .icon-rotate-left::before {
+  content: '\f0e2';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-universal-access::before {
+  content: '\f29a';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-university::before, .icon-institution::before,
+.icon-bank::before {
+  content: '\f19c';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-unlink::before {
+  content: '\f127';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-unlock::before {
+  content: '\f09c';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-unlock-alt::before {
+  content: '\f13e';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-unsorted::before {
+  content: '\f0dc';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-upload::before {
+  content: '\f093';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-usb::before {
+  content: '\f287';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-usd::before, .icon-dollar::before {
+  content: '\f155';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-user::before {
+  content: '\f007';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-user-md::before {
+  content: '\f0f0';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-user-plus::before {
+  content: '\f234';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-user-secret::before {
+  content: '\f21b';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-user-times::before {
+  content: '\f235';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-users::before, .icon-group::before {
+  content: '\f0c0';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-venus::before {
+  content: '\f221';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-venus-double::before {
+  content: '\f226';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-venus-mars::before {
+  content: '\f228';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-viacoin::before {
+  content: '\f237';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-viadeo::before {
+  content: '\f2a9';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-viadeo-square::before {
+  content: '\f2aa';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-video-camera::before {
+  content: '\f03d';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-vimeo::before {
+  content: '\f27d';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-vimeo-square::before {
+  content: '\f194';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-vine::before {
+  content: '\f1ca';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-vk::before {
+  content: '\f189';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-volume-control-phone::before {
+  content: '\f2a0';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-volume-down::before {
+  content: '\f027';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-volume-off::before {
+  content: '\f026';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-volume-up::before {
+  content: '\f028';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-warning::before {
+  content: '\f071';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-wechat::before {
+  content: '\f1d7';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-weibo::before {
+  content: '\f18a';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-weixin::before, .icon-wechat::before {
+  content: '\f1d7';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-whatsapp::before {
+  content: '\f232';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-wheelchair::before {
+  content: '\f193';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-wheelchair-alt::before {
+  content: '\f29b';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-wifi::before {
+  content: '\f1eb';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-wikipedia-w::before {
+  content: '\f266';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-windows::before {
+  content: '\f17a';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-won::before {
+  content: '\f159';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-wordpress::before {
+  content: '\f19a';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-wpbeginner::before {
+  content: '\f297';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-wpforms::before {
+  content: '\f298';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-wrench::before {
+  content: '\f0ad';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-xing::before {
+  content: '\f168';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-xing-square::before {
+  content: '\f169';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-y-combinator::before, .icon-yc::before {
+  content: '\f23b';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-y-combinator-square::before {
+  content: '\f1d4';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-yahoo::before {
+  content: '\f19e';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-yc::before {
+  content: '\f23b';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-yc-square::before {
+  content: '\f1d4';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-yelp::before {
+  content: '\f1e9';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-yen::before {
+  content: '\f157';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-yoast::before {
+  content: '\f2b1';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-youtube::before {
+  content: '\f167';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-youtube-play::before {
+  content: '\f16a';
+}
+
+/* line 9, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_icons.scss */
+.icon-youtube-square::before {
+  content: '\f166 ';
+}
+
+/* line 4, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_screen-reader.scss */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+/* line 51, d:/Projetos/Boilerplate/Styles/plugins/font-awesome/_mixins.scss */
+.sr-only-focusable:active, .sr-only-focusable:focus {
+  position: static;
+  width: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  clip: auto;
+}

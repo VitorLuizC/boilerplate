@@ -1,0 +1,13 @@
+﻿@mixin render($style) {
+  @if (type-of($style) != map and type-of($style) != list  and length($style) != 0) {
+    @include throw('invalid render \'#{$style}\' | type of \'#{type-of($style)}\'', error);
+  }
+
+  @if (length($style) == 0) {
+    @include throw('no styles to render', debug);
+  } @else {
+    @each $attribute, $value in $style {
+      #{$attribute}: $value;
+    }
+  }
+}
