@@ -1,0 +1,41 @@
+/**
+ * Reset
+ * -------------------------------------------------------------------
+ * Remove browser's default stylesheet.
+ */
+
+$-default-height { height: 100%; }
+$-default-margin { margin: 0; }
+
+html {
+  /**
+   * Parent height 100%, like default width 100%.
+   */
+  @extend $-default-height;
+}
+
+body {
+  /**
+   * Parent height 100%, like default width 100%.
+   */
+  @extend $-default-height;
+
+  /**
+   * Remove default margin.
+   */
+  @extend $-default-margin;
+}
+
+figure {
+  /**
+   * Remove default margin.
+   */
+  @extend $-default-margin;
+
+  /**
+   * Let figure set image size.
+   */
+  & > img { display: block; }
+}
+
+

@@ -6,17 +6,17 @@ end_of_line = crlf
 insert_final_newline = true
 trim_trailing_whitespace = true
 
-[*.{css,scss}]
+[*.{css,styl}]
 tab_width = 2
 indent_size = 2
 indent_style = space
 
 [*.{js,json}]
-tab_width = 4
-indent_size = 4
+tab_width = 2
+indent_size = 2
 indent_style = space
 
-[*.{html,cshtml}]
+[*.{html,pug}]
 tab_width = 2
 indent_size = 2
 indent_style = space
