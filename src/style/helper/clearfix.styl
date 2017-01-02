@@ -1,0 +1,21 @@
+/**
+ * Clearfix
+ * -------------------------------------------------------------------
+ * Fix float problem where a container cant fit children.
+ */
+
+$-clearfix-overkill {
+  &::before, &::after {
+    display: block;
+    clear: both;
+    content: '';
+  }
+}
+
+clearfix($type = silly) {
+  if ($type == silly) {
+    overflow: auto;
+  } else if ($type == overkill) {
+    @extend $-clearfix-overkill;
+  }
+}
