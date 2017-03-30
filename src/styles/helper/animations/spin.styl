@@ -1,0 +1,16 @@
+/**
+ * Spin
+ * Animate an element by making it spins.
+ */
+
+@keyframes spin
+  0%
+    transform: rotate(0deg);
+  100%
+    transform: rotate(360deg);
+
+spin(duration = 1s, iteration = infinite)
+  animation-name: spin
+  animation-timing-function: linear
+  animation-duration: duration
+  animation-iteration-count: iteration

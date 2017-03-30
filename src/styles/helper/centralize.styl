@@ -1,0 +1,17 @@
+/**
+ * Centralize
+ * Centralize component verical, horizontal or both.
+ */
+
+// TODO: Add vertex styles to all types
+
+centralize(type = silly, vertex = both)
+  if (type == silly)
+    display: block
+    margin-right: auto
+    margin-left: auto
+  else if (type == absolute)
+    position: absolute
+    top: 50%
+    left: 50%
+    transform: translate(-50%, -50%)

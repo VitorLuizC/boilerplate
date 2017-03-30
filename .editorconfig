@@ -1,22 +1,13 @@
-﻿root = true
+root = true
 
+# Default
 [*]
 charset = utf-8
 end_of_line = crlf
 insert_final_newline = true
 trim_trailing_whitespace = true
 
-[*.{css,styl}]
-tab_width = 2
-indent_size = 2
-indent_style = space
-
-[*.{js,json}]
-tab_width = 2
-indent_size = 2
-indent_style = space
-
-[*.{html,pug}]
-tab_width = 2
+# Source files
+[*]
 indent_size = 2
 indent_style = space

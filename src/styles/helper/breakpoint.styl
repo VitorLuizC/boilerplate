@@ -1,0 +1,25 @@
+/**
+ * Breakpoint
+ * Simple mixin to build responsive webapps. Breakpoints just set default @media
+ * based on BREAKPOINTS hash, or a simple custom breakpoint.
+ */
+
+BREAKPOINTS = {
+  print: print,
+  xs: screen,
+  sm: 48rem,
+  md: 64rem,
+  lg: 75rem
+}
+
+breakpoint(point, type = 'min')
+  if (point is a 'string' || point is a 'ident')
+    point = BREAKPOINTS[point]
+
+    if (point == null)
+      error('invalid breakpoint "'+ point + '".')
+
+  query = (point is a 'unit') ? '(' + type + '-width: ' + point + ')' : point
+
+  @media query
+    {block}

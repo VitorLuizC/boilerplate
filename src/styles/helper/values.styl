@@ -1,0 +1,26 @@
+/**
+ * Value
+ * Functions to handle values.
+ * Like getting "top" value from "$margin = 12px 0".
+ */
+
+value-directions(value)
+  directions = {}
+  directions.top = value[0]
+  directions.right = length(value) > 1 ? value[1] : directions.top
+  directions.bottom = length(value) > 2 ? value[2] : directions.top
+  directions.left = length(value) > 3 ? value[3] : directions.right
+
+  return directions
+
+value-x(value)
+  directions = value-directions(value)
+  x = directions.right + directions.left
+
+  return x
+
+value-y(value)
+  directions = value-directions(value)
+  y = directions.top + directions.bottom
+
+  return y
