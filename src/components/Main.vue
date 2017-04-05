@@ -1,16 +1,13 @@
 <template lang="pug">
-  p Olá
+  router-view
 </template>
 
 <script>
   export default {
-
+    /**
+     * Main/Global* hooks goes here.
+     */
   }
 </script>
 
-<style lang="stylus">
-  @import '../styles/base.styl'
-
-  p
-    font-size: 3em
-</style>
+<style lang="stylus" src="../styles/base.styl">

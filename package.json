@@ -4,9 +4,9 @@
   "description": "Front-End stuff.",
   "main": "src/index.js",
   "scripts": {
+    "dev": "webpack-dev-server --hot --content-base ./dist",
     "build": "webpack -p --env production --hide-modules",
-    "debug": "webpack -d --env development --display-error-details",
-    "serve": "webpack-dev-server --hot --content-base ./dist"
+    "debug": "webpack -d --env development --display-error-details"
   },
   "repository": {
     "type": "git",
@@ -30,6 +30,7 @@
   "dependencies": {
     "babel-plugin-transform-object-rest-spread": "^6.23.0",
     "vue": "^2.2.6",
+    "vue-router": "^2.3.1",
     "webpack-dev-server": "^2.4.2"
   },
   "devDependencies": {
