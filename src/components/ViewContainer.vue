@@ -1,9 +1,9 @@
 <template lang="pug">
   .view-container
-    view-header(if="!hideHeader")
+    view-header(v-if="!hideHeader")
     view-content
       slot
-    view-footer(if="!hideFooter")
+    view-footer(v-if="!hideFooter")
 </template>
 
 <script>
