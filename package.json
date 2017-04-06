@@ -4,7 +4,7 @@
   "description": "Front-End stuff.",
   "main": "src/index.js",
   "scripts": {
-    "dev": "webpack-dev-server --hot --content-base ./dist",
+    "dev": "webpack-dev-server --hot --open --content-base ./dist",
     "build": "webpack -p --env production --hide-modules",
     "debug": "webpack -d --env development --display-error-details"
   },
